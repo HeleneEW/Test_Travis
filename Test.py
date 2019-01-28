@@ -4,6 +4,8 @@ Spyder Editor
 
 This is a temporary script file.
 """
+
+
 import random
 import pytest
 pytest.main(args = [__file__,'-v'])
@@ -24,6 +26,7 @@ def test_custom_max1():
     min_liste = [2,3,8,5,6,1]
     assert custom_max(min_liste) == 8
     
+		
 def test_custom_max2():
     min_liste = [-2,-5,-8,-5,-6,-10]
     assert custom_max(min_liste) == -2 
